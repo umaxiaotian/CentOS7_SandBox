@@ -7,6 +7,7 @@ docker-compose.ymlがある位置のshellフォルダは、コンテナ内の/sh
 USER:root
 PASS:password
 HOST:localhost
+PORT:22
 ```
 
 
