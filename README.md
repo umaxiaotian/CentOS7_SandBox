@@ -1,6 +1,7 @@
 # Docker-CentOS7-Sandbox
   Docker上で動作するCentOSのサンドボックスです。
 docker-compose.ymlがある位置のshellフォルダは、コンテナ内の/shellと繋がっており、ファイルのやり取りが可能です。
+また、rootユーザーのホームディレクトリ(コンテナ内)/rootはディレクトリ内の./home_direcotoryと繋がっておりこちらも同様にファイルのやり取りが可能です。
 
 ## SSHを使用する場合
 ```
