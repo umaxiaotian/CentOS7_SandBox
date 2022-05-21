@@ -12,9 +12,9 @@ HOST:localhost
 
 ## 構築
 リポジトリを落としてきます。
-``
+```
 git clone https://github.com/umaxiaotian/CentOS7_SandBox.git CentOS7SandBox
-``
+```
 CentOS7SandBoxフォルダ内に移動します。
 ```
 cd CentOS7SandBox
