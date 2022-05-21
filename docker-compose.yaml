@@ -5,6 +5,7 @@ services:
     build: ./middleware/shell
     volumes:
       - ./shell:/shell
+      - ./home_directory:/root
     ports:
       - "22:22"
     tty: true
