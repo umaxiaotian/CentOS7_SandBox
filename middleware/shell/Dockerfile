@@ -34,7 +34,6 @@ RUN yum -y install \
     gdbm-devel \
     iproute \
     openssh-server
-
 RUN ssh-keygen -A
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
